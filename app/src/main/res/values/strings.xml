@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyFile</string>
+    <String name="test"></String>
+    <string-array name="pradesh">
+        <item> pradesh 1</item>
+        <item> pradesh 2</item>
+        <item> pradesh 3</item>
+        <item> pradesh 4</item>
+        <item> pradesh 5</item>
+        <item> pradesh 6</item>
+        <item> pradesh 7</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_weight="1"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+    android:id ="@+id/Registration"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Registration"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"/>
+    <TextView
+        android:id ="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"/>
+
+    <RadioGroup
+        android:id="@+id/rgG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:id ="@+id/rbMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Male"/>
+    <RadioButton
+        android:id ="@+id/rbFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Female"/>
+
+    <RadioButton
+        android:id ="@+id/rbOthers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Others"/>
+    </RadioGroup>
+    <TextView
+        android:id ="@+id/Region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Region"/>
+    <Spinner
+        android:id ="@+id/spPradesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pradesh"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hobbies"/>
+    <CheckBox
+        android:id="@+id/cbMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Music"/>
+    <CheckBox
+    android:id="@+id/cbTravel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Travel"/>
+    <CheckBox
+        android:id="@+id/cbDance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dance"/>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submit"/>
+
+
+
+
+
+</LinearLayout>
